@@ -1,13 +1,15 @@
 import React from 'react';
 import './book.css';
+import Sell from "../Sell/Sell.jsx"
 
 function Book() {
     return (
         <div className='oneBook'>
-            <Image/>
-            <Author/>
-            <Title/>
-            <Price/>
+            <Image />
+            <Author />
+            <Title />
+            <Price />
+            <Sell />
         </div>
     )
 }

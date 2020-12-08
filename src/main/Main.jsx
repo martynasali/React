@@ -7,7 +7,7 @@ const Main = () => {
             <BooksList />
             <p>as esu main page</p>
             <div>
-            <Contacts name='Martynas' email='alijosius.martynas@gmail.com'/>
+                <Contacts name='Martynas' email='alijosius.martynas@gmail.com' initialAge={17} />
             </div>
         </div>
     )
