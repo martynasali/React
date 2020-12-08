@@ -3,7 +3,7 @@ import './book.css';
 import Sell from "../Sell/Sell.jsx"
 
 function Book() {
-    return (
+      return (
         <div className='oneBook'>
             <Image />
             <Author />
